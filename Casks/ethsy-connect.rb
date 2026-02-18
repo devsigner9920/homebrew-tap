@@ -3,7 +3,7 @@ cask "ethsy-connect" do
   name "ethsy-connect"
   desc "CLI client for ethsy.me remote tmux session sharing"
   homepage "https://github.com/devsigner9920/ethsy-ssh"
-  version "0.1.1"
+  version "0.1.2"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "ethsy-connect" do
   on_macos do
     on_intel do
       url "https://github.com/devsigner9920/ethsy-ssh/releases/download/v#{version}/ethsy-connect_darwin_amd64.tar.gz"
-      sha256 "02d3a29bef51284380886b828bd2b8c9930e16a1f15a15b03911edf888ccd5f6"
+      sha256 "5f74dae69b5a76e92de2b91de317ebd58f3829bc773441c809c72377933e7e62"
     end
     on_arm do
       url "https://github.com/devsigner9920/ethsy-ssh/releases/download/v#{version}/ethsy-connect_darwin_arm64.tar.gz"
-      sha256 "315af30ab0e34b88621890647844d69632f440e69be069a84f316a2d22d5e148"
+      sha256 "5547fb727ef8f1d065f58d45ab1a16baeae30643a1bfcfa625108cf531f529e6"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/devsigner9920/ethsy-ssh/releases/download/v#{version}/ethsy-connect_linux_amd64.tar.gz"
-      sha256 "5c6a194cddb1d3c00ff18b5c8bd16cd30d94176b8f0aff9ed34b64fd029476f6"
+      sha256 "7c81d7978e8ffee5bd84da591e7c1516186fa26d459ef68cc614d0545fa75353"
     end
     on_arm do
       url "https://github.com/devsigner9920/ethsy-ssh/releases/download/v#{version}/ethsy-connect_linux_arm64.tar.gz"
-      sha256 "a505288f5885ab03d4b723431e09e9f617707bb7877b1449811949a412da58bd"
+      sha256 "6e239ce8527503a06c489f8a27e6943cea62e60fccb3132cfcc2e8c14ed98ec9"
     end
   end
 
